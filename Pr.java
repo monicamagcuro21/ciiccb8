@@ -1,4 +1,4 @@
-public class Prog {
+public class Progra {
 	class Test{
 	    public static void main(String args[]){
 			try{
