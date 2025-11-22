@@ -8,7 +8,7 @@ public class task4 {
         Scanner in = new Scanner(System.in);
 
         System.out.print("Enter a word: ");
-        String words = in.nextLine();
+        String words = in.nextLine().toLowerCase();
 
         StringBuilder sb = new StringBuilder(words);
         String rev = sb.reverse().toString().toLowerCase();
