@@ -1,3 +1,4 @@
+package Assignements;
 public class Task2 {
     public static void main(String[] args) {
         byte zero = 0, three  = 3;

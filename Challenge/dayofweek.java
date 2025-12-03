@@ -1,3 +1,4 @@
+package Challenge;
 import java.util.Scanner;
 
 public class dayofweek {
