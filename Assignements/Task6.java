@@ -1,3 +1,4 @@
+package Assignements;
 import java.util.Arrays;
 
 public class Task6 {
