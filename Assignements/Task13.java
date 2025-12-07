@@ -1,3 +1,4 @@
+package Assignements;
 class Vehicle {
 
     private String make;
