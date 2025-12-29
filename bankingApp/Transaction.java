@@ -1,7 +1,9 @@
-package bankingApp;
+
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+
+import Database;
 
 public class Transaction {
     private String transactionNumber;
@@ -19,7 +21,7 @@ public class Transaction {
     private String generateTransactionNumber(String type, String accountNumber) {
         // Map transaction type to a two-digit code
         String typeCode = switch (type.toLowerCase()) {
-            case "deposit" -> "01";
+            case "deposit" -> "02";
             case "withdraw" -> "03";
             case "transfer_out" -> "04";
             case "transfer_in" -> "05";

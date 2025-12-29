@@ -1,4 +1,4 @@
-package bankingApp;
+
 
 public class BankAccount {
     private String accountNumber;
